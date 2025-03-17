@@ -1,0 +1,10 @@
+D:\ThưcTap_VienThong\PMQuanLyBanHang(thuoctrusau)\bin\Debug\PMQuanLyBanHang(thuoctrusau).exe.config
+D:\ThưcTap_VienThong\PMQuanLyBanHang(thuoctrusau)\bin\Debug\PMQuanLyBanHang(thuoctrusau).exe
+D:\ThưcTap_VienThong\PMQuanLyBanHang(thuoctrusau)\bin\Debug\PMQuanLyBanHang(thuoctrusau).pdb
+D:\ThưcTap_VienThong\PMQuanLyBanHang(thuoctrusau)\obj\Debug\PMQuanLyBanHang(thuoctrusau).csproj.AssemblyReference.cache
+D:\ThưcTap_VienThong\PMQuanLyBanHang(thuoctrusau)\obj\Debug\PMQuanLyBanHang_thuoctrusau_.Form1.resources
+D:\ThưcTap_VienThong\PMQuanLyBanHang(thuoctrusau)\obj\Debug\PMQuanLyBanHang_thuoctrusau_.Properties.Resources.resources
+D:\ThưcTap_VienThong\PMQuanLyBanHang(thuoctrusau)\obj\Debug\PMQuanLyBanHang(thuoctrusau).csproj.GenerateResource.cache
+D:\ThưcTap_VienThong\PMQuanLyBanHang(thuoctrusau)\obj\Debug\PMQuanLyBanHang(thuoctrusau).csproj.CoreCompileInputs.cache
+D:\ThưcTap_VienThong\PMQuanLyBanHang(thuoctrusau)\obj\Debug\PMQuanLyBanHang(thuoctrusau).exe
+D:\ThưcTap_VienThong\PMQuanLyBanHang(thuoctrusau)\obj\Debug\PMQuanLyBanHang(thuoctrusau).pdb
