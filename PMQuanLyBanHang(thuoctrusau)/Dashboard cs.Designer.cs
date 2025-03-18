@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard_cs));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnMenu = new Guna.UI2.WinForms.Guna2Panel();
             this.btn = new System.Windows.Forms.Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
@@ -47,6 +47,7 @@
             this.btnKhachHang = new System.Windows.Forms.Button();
             this.btnNhanVien = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
+            this.pic_home = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.lb_date = new System.Windows.Forms.Label();
@@ -74,28 +75,28 @@
             this.dateThu = new System.Windows.Forms.DateTimePicker();
             this.pan_chi = new System.Windows.Forms.Panel();
             this.bangNSP = new System.Windows.Forms.DataGridView();
-            this.label10 = new System.Windows.Forms.Label();
-            this.bangLNV = new System.Windows.Forms.DataGridView();
-            this.label9 = new System.Windows.Forms.Label();
-            this.btnTinhChi = new Guna.UI2.WinForms.Guna2Button();
-            this.dateChi = new System.Windows.Forms.DateTimePicker();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.masp = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MANV1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.thanhtien = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NguoiNhap = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label10 = new System.Windows.Forms.Label();
+            this.bangLNV = new System.Windows.Forms.DataGridView();
             this.manv = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tienthuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.luongtong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pic_home = new System.Windows.Forms.PictureBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.btnTinhChi = new Guna.UI2.WinForms.Guna2Button();
+            this.dateChi = new System.Windows.Forms.DateTimePicker();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.pnMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_home)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel_head.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -105,7 +106,6 @@
             this.pan_chi.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bangNSP)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bangLNV)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_home)).BeginInit();
             this.SuspendLayout();
             // 
             // pnMenu
@@ -307,6 +307,20 @@
             this.btnHome.Text = "Home";
             this.btnHome.UseVisualStyleBackColor = false;
             // 
+            // pic_home
+            // 
+            this.pic_home.BackColor = System.Drawing.Color.Cornsilk;
+            this.pic_home.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pic_home.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pic_home.ErrorImage = null;
+            this.pic_home.InitialImage = null;
+            this.pic_home.Location = new System.Drawing.Point(0, 0);
+            this.pic_home.Name = "pic_home";
+            this.pic_home.Size = new System.Drawing.Size(216, 93);
+            this.pic_home.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pic_home.TabIndex = 0;
+            this.pic_home.TabStop = false;
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.SandyBrown;
@@ -442,7 +456,7 @@
             // 
             // pnl_thu
             // 
-            this.pnl_thu.BackColor = System.Drawing.Color.LightCoral;
+            this.pnl_thu.BackColor = System.Drawing.Color.OrangeRed;
             this.pnl_thu.Controls.Add(this.lb_tongtienthu);
             this.pnl_thu.Controls.Add(this.label8);
             this.pnl_thu.Controls.Add(this.label7);
@@ -493,14 +507,14 @@
             this.thanhtien1});
             this.bangHD.Location = new System.Drawing.Point(7, 132);
             this.bangHD.Name = "bangHD";
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.Red;
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bangHD.RowHeadersDefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Red;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bangHD.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.bangHD.RowHeadersWidth = 51;
             this.bangHD.RowTemplate.Height = 24;
             this.bangHD.Size = new System.Drawing.Size(587, 372);
@@ -510,8 +524,8 @@
             // 
             this.sohd.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.sohd.DataPropertyName = "SOHD";
-            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.Red;
-            this.sohd.DefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Red;
+            this.sohd.DefaultCellStyle = dataGridViewCellStyle6;
             this.sohd.HeaderText = "Mã hóa đơn";
             this.sohd.MinimumWidth = 6;
             this.sohd.Name = "sohd";
@@ -544,8 +558,8 @@
             // 
             this.thanhtien1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.thanhtien1.DataPropertyName = "TONGTIEN";
-            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.Red;
-            this.thanhtien1.DefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Red;
+            this.thanhtien1.DefaultCellStyle = dataGridViewCellStyle7;
             this.thanhtien1.HeaderText = "Thành Tiền";
             this.thanhtien1.MinimumWidth = 6;
             this.thanhtien1.Name = "thanhtien1";
@@ -566,10 +580,10 @@
             this.btnTinhThu.AutoRoundedCorners = true;
             this.btnTinhThu.BorderColor = System.Drawing.Color.Transparent;
             this.btnTinhThu.BorderRadius = 21;
-            this.btnTinhThu.FillColor = System.Drawing.Color.LightCoral;
+            this.btnTinhThu.FillColor = System.Drawing.Color.OrangeRed;
             this.btnTinhThu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTinhThu.ForeColor = System.Drawing.Color.Black;
-            this.btnTinhThu.Location = new System.Drawing.Point(414, 22);
+            this.btnTinhThu.Location = new System.Drawing.Point(411, 22);
             this.btnTinhThu.Name = "btnTinhThu";
             this.btnTinhThu.Size = new System.Drawing.Size(180, 45);
             this.btnTinhThu.TabIndex = 1;
@@ -618,98 +632,15 @@
             this.bangNSP.Size = new System.Drawing.Size(675, 183);
             this.bangNSP.TabIndex = 13;
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(19, 71);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(116, 28);
-            this.label10.TabIndex = 14;
-            this.label10.Text = "Nhập hàng";
-            // 
-            // bangLNV
-            // 
-            this.bangLNV.BackgroundColor = System.Drawing.SystemColors.Control;
-            this.bangLNV.ColumnHeadersHeight = 29;
-            this.bangLNV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.manv,
-            this.tienthuong,
-            this.luongtong,
-            this.Column1,
-            this.Column4,
-            this.Column5});
-            this.bangLNV.Location = new System.Drawing.Point(3, 334);
-            this.bangLNV.Name = "bangLNV";
-            this.bangLNV.RowHeadersWidth = 51;
-            this.bangLNV.RowTemplate.Height = 24;
-            this.bangLNV.Size = new System.Drawing.Size(675, 172);
-            this.bangLNV.TabIndex = 11;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(19, 288);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(109, 28);
-            this.label9.TabIndex = 11;
-            this.label9.Text = "Xuất hàng";
-            // 
-            // btnTinhChi
-            // 
-            this.btnTinhChi.AutoRoundedCorners = true;
-            this.btnTinhChi.BorderRadius = 21;
-            this.btnTinhChi.FillColor = System.Drawing.Color.LightCoral;
-            this.btnTinhChi.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTinhChi.ForeColor = System.Drawing.Color.Black;
-            this.btnTinhChi.Location = new System.Drawing.Point(419, 16);
-            this.btnTinhChi.Name = "btnTinhChi";
-            this.btnTinhChi.Size = new System.Drawing.Size(180, 45);
-            this.btnTinhChi.TabIndex = 12;
-            this.btnTinhChi.Text = "Tính";
-            // 
-            // dateChi
-            // 
-            this.dateChi.CalendarFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateChi.CalendarMonthBackground = System.Drawing.SystemColors.Info;
-            this.dateChi.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateChi.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateChi.Location = new System.Drawing.Point(24, 22);
-            this.dateChi.Name = "dateChi";
-            this.dateChi.Size = new System.Drawing.Size(198, 34);
-            this.dateChi.TabIndex = 11;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(455, 171);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(102, 28);
-            this.label4.TabIndex = 11;
-            this.label4.Text = "Tổng Thu";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(1118, 171);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(164, 28);
-            this.label5.TabIndex = 12;
-            this.label5.Text = "Nhập xuất hàng";
-            // 
             // masp
             // 
             this.masp.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.masp.DataPropertyName = "MASP";
-            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.Red;
-            this.masp.DefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Red;
+            this.masp.DefaultCellStyle = dataGridViewCellStyle9;
             this.masp.FillWeight = 50F;
             this.masp.HeaderText = "Mã Phiếu ";
+            this.masp.MinimumWidth = 6;
             this.masp.Name = "masp";
             this.masp.Width = 95;
             // 
@@ -751,6 +682,35 @@
             this.Column3.Name = "Column3";
             this.Column3.Width = 125;
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Black;
+            this.label10.Location = new System.Drawing.Point(19, 71);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(116, 28);
+            this.label10.TabIndex = 14;
+            this.label10.Text = "Nhập hàng";
+            // 
+            // bangLNV
+            // 
+            this.bangLNV.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.bangLNV.ColumnHeadersHeight = 29;
+            this.bangLNV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.manv,
+            this.tienthuong,
+            this.luongtong,
+            this.Column1,
+            this.Column4,
+            this.Column5});
+            this.bangLNV.Location = new System.Drawing.Point(3, 334);
+            this.bangLNV.Name = "bangLNV";
+            this.bangLNV.RowHeadersWidth = 51;
+            this.bangLNV.RowTemplate.Height = 24;
+            this.bangLNV.Size = new System.Drawing.Size(675, 172);
+            this.bangLNV.TabIndex = 11;
+            // 
             // manv
             // 
             this.manv.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
@@ -771,8 +731,8 @@
             // 
             this.luongtong.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.luongtong.DataPropertyName = "TONGTIEN";
-            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.Red;
-            this.luongtong.DefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.Red;
+            this.luongtong.DefaultCellStyle = dataGridViewCellStyle10;
             this.luongtong.HeaderText = "Ngày Giao";
             this.luongtong.MinimumWidth = 6;
             this.luongtong.Name = "luongtong";
@@ -798,19 +758,60 @@
             this.Column5.Name = "Column5";
             this.Column5.Width = 125;
             // 
-            // pic_home
+            // label9
             // 
-            this.pic_home.BackColor = System.Drawing.Color.Cornsilk;
-            this.pic_home.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pic_home.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pic_home.ErrorImage = null;
-            this.pic_home.InitialImage = null;
-            this.pic_home.Location = new System.Drawing.Point(0, 0);
-            this.pic_home.Name = "pic_home";
-            this.pic_home.Size = new System.Drawing.Size(216, 93);
-            this.pic_home.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pic_home.TabIndex = 0;
-            this.pic_home.TabStop = false;
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(19, 288);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(109, 28);
+            this.label9.TabIndex = 11;
+            this.label9.Text = "Xuất hàng";
+            // 
+            // btnTinhChi
+            // 
+            this.btnTinhChi.AutoRoundedCorners = true;
+            this.btnTinhChi.BorderRadius = 21;
+            this.btnTinhChi.FillColor = System.Drawing.Color.OrangeRed;
+            this.btnTinhChi.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTinhChi.ForeColor = System.Drawing.Color.Black;
+            this.btnTinhChi.Location = new System.Drawing.Point(419, 16);
+            this.btnTinhChi.Name = "btnTinhChi";
+            this.btnTinhChi.Size = new System.Drawing.Size(180, 45);
+            this.btnTinhChi.TabIndex = 12;
+            this.btnTinhChi.Text = "Tính";
+            // 
+            // dateChi
+            // 
+            this.dateChi.CalendarFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateChi.CalendarMonthBackground = System.Drawing.SystemColors.Info;
+            this.dateChi.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateChi.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateChi.Location = new System.Drawing.Point(24, 22);
+            this.dateChi.Name = "dateChi";
+            this.dateChi.Size = new System.Drawing.Size(198, 34);
+            this.dateChi.TabIndex = 11;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(455, 171);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(102, 28);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "Tổng Thu";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(1118, 171);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(164, 28);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "Nhập xuất hàng";
             // 
             // label11
             // 
@@ -841,6 +842,7 @@
             this.Text = "Quản Lý Bán Hàng";
             this.pnMenu.ResumeLayout(false);
             this.pnMenu.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_home)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel_head.ResumeLayout(false);
@@ -855,7 +857,6 @@
             this.pan_chi.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bangNSP)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bangLNV)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_home)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
