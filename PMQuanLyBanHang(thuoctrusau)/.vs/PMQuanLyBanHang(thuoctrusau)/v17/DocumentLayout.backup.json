@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9084EB38-4B86-471A-BB29-045B91BC1B1F}|PMQuanLyBanHang(thuoctrusau).csproj|d:\\detai_thuctap\\pmquanlybanhang(thuoctrusau)\\frmhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9084EB38-4B86-471A-BB29-045B91BC1B1F}|PMQuanLyBanHang(thuoctrusau).csproj|solutionrelative:frmhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9084EB38-4B86-471A-BB29-045B91BC1B1F}|PMQuanLyBanHang(thuoctrusau).csproj|d:\\detai_thuctap\\pmquanlybanhang(thuoctrusau)\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9084EB38-4B86-471A-BB29-045B91BC1B1F}|PMQuanLyBanHang(thuoctrusau).csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9084EB38-4B86-471A-BB29-045B91BC1B1F}|PMQuanLyBanHang(thuoctrusau).csproj|d:\\detai_thuctap\\pmquanlybanhang(thuoctrusau)\\dashboard cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9084EB38-4B86-471A-BB29-045B91BC1B1F}|PMQuanLyBanHang(thuoctrusau).csproj|solutionrelative:dashboard cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9084EB38-4B86-471A-BB29-045B91BC1B1F}|PMQuanLyBanHang(thuoctrusau).csproj|D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9084EB38-4B86-471A-BB29-045B91BC1B1F}|PMQuanLyBanHang(thuoctrusau).csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9084EB38-4B86-471A-BB29-045B91BC1B1F}|PMQuanLyBanHang(thuoctrusau).csproj|d:\\detai_thuctap\\pmquanlybanhang(thuoctrusau)\\frmhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9084EB38-4B86-471A-BB29-045B91BC1B1F}|PMQuanLyBanHang(thuoctrusau).csproj|solutionrelative:frmhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9084EB38-4B86-471A-BB29-045B91BC1B1F}|PMQuanLyBanHang(thuoctrusau).csproj|D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\frmdn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9084EB38-4B86-471A-BB29-045B91BC1B1F}|PMQuanLyBanHang(thuoctrusau).csproj|solutionrelative:frmdn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9084EB38-4B86-471A-BB29-045B91BC1B1F}|PMQuanLyBanHang(thuoctrusau).csproj|D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9084EB38-4B86-471A-BB29-045B91BC1B1F}|PMQuanLyBanHang(thuoctrusau).csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9084EB38-4B86-471A-BB29-045B91BC1B1F}|PMQuanLyBanHang(thuoctrusau).csproj|D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9084EB38-4B86-471A-BB29-045B91BC1B1F}|PMQuanLyBanHang(thuoctrusau).csproj|solutionrelative:dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9084EB38-4B86-471A-BB29-045B91BC1B1F}|PMQuanLyBanHang(thuoctrusau).csproj|D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\frmdn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9084EB38-4B86-471A-BB29-045B91BC1B1F}|PMQuanLyBanHang(thuoctrusau).csproj|solutionrelative:frmdn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9084EB38-4B86-471A-BB29-045B91BC1B1F}|PMQuanLyBanHang(thuoctrusau).csproj|D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\frmtaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9084EB38-4B86-471A-BB29-045B91BC1B1F}|PMQuanLyBanHang(thuoctrusau).csproj|solutionrelative:frmtaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,55 +34,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmHangHoa.cs",
-              "DocumentMoniker": "D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\frmHangHoa.cs",
-              "RelativeDocumentMoniker": "frmHangHoa.cs",
-              "ToolTip": "D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\frmHangHoa.cs",
-              "RelativeToolTip": "frmHangHoa.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAnwBMAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Dashboard.Designer.cs",
+              "DocumentMoniker": "D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\Dashboard.Designer.cs",
+              "RelativeDocumentMoniker": "Dashboard.Designer.cs",
+              "ToolTip": "D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\Dashboard.Designer.cs",
+              "RelativeToolTip": "Dashboard.Designer.cs",
+              "ViewState": "AgIAAKUCAAAAAAAAAAAEwLICAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T08:14:51.632Z",
+              "WhenOpened": "2025-03-19T08:56:32.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmDN.cs",
+              "DocumentMoniker": "D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\frmDN.cs",
+              "RelativeDocumentMoniker": "frmDN.cs",
+              "ToolTip": "D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\frmDN.cs",
+              "RelativeToolTip": "frmDN.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAADwvyYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T08:43:39.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmDN.cs [Design]",
+              "DocumentMoniker": "D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\frmDN.cs",
+              "RelativeDocumentMoniker": "frmDN.cs",
+              "ToolTip": "D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\frmDN.cs [Design]",
+              "RelativeToolTip": "frmDN.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T08:43:35.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmTaiKhoan.cs",
+              "DocumentMoniker": "D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\frmTaiKhoan.cs",
+              "RelativeDocumentMoniker": "frmTaiKhoan.cs",
+              "ToolTip": "D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\frmTaiKhoan.cs",
+              "RelativeToolTip": "frmTaiKhoan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T08:39:24.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\Dashboard.cs",
+              "RelativeToolTip": "Dashboard.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAQwB0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T07:18:59.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmHangHoa.cs [Design]",
-              "DocumentMoniker": "D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\frmHangHoa.cs",
-              "RelativeDocumentMoniker": "frmHangHoa.cs",
-              "ToolTip": "D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\frmHangHoa.cs [Design]",
-              "RelativeToolTip": "frmHangHoa.cs [Design]",
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\Dashboard.cs [Design]",
+              "RelativeToolTip": "Dashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T08:09:55.791Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dashboard cs.cs [Design]",
-              "DocumentMoniker": "D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\Dashboard cs.cs",
-              "RelativeDocumentMoniker": "Dashboard cs.cs",
-              "ToolTip": "D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\Dashboard cs.cs [Design]",
-              "RelativeToolTip": "Dashboard cs.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T06:24:20.866Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\DeTai_ThucTap\\PMQuanLyBanHang(thuoctrusau)\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T09:10:10.092Z",
+              "WhenOpened": "2025-03-19T07:18:48.516Z",
               "EditorCaption": " [Design]"
             }
           ]

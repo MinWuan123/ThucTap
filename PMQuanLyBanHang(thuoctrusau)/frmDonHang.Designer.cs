@@ -1,6 +1,6 @@
 ﻿namespace PMQuanLyBanHang_thuoctrusau_
 {
-    partial class formDonHang
+    partial class frmDonHang
     {
         /// <summary>
         /// Required designer variable.
@@ -71,7 +71,7 @@
             // txtMaNV
             // 
             this.txtMaNV.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMaNV.Location = new System.Drawing.Point(925, 227);
+            this.txtMaNV.Location = new System.Drawing.Point(962, 229);
             this.txtMaNV.Name = "txtMaNV";
             this.txtMaNV.ReadOnly = true;
             this.txtMaNV.Size = new System.Drawing.Size(144, 30);
@@ -82,7 +82,7 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(808, 234);
+            this.label8.Location = new System.Drawing.Point(845, 236);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(99, 23);
             this.label8.TabIndex = 141;
@@ -92,7 +92,7 @@
             // 
             this.lb_layma.AutoSize = true;
             this.lb_layma.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_layma.Location = new System.Drawing.Point(1013, 152);
+            this.lb_layma.Location = new System.Drawing.Point(1050, 154);
             this.lb_layma.Name = "lb_layma";
             this.lb_layma.Size = new System.Drawing.Size(56, 20);
             this.lb_layma.TabIndex = 140;
@@ -101,7 +101,7 @@
             // txtMaHD
             // 
             this.txtMaHD.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMaHD.Location = new System.Drawing.Point(925, 175);
+            this.txtMaHD.Location = new System.Drawing.Point(962, 177);
             this.txtMaHD.Name = "txtMaHD";
             this.txtMaHD.ReadOnly = true;
             this.txtMaHD.Size = new System.Drawing.Size(144, 30);
@@ -111,7 +111,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(808, 183);
+            this.label7.Location = new System.Drawing.Point(845, 185);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(111, 23);
             this.label7.TabIndex = 138;
@@ -124,7 +124,7 @@
             this.btnThanhToan.FillColor = System.Drawing.Color.Orange;
             this.btnThanhToan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThanhToan.ForeColor = System.Drawing.Color.White;
-            this.btnThanhToan.Location = new System.Drawing.Point(1103, 177);
+            this.btnThanhToan.Location = new System.Drawing.Point(1124, 162);
             this.btnThanhToan.Name = "btnThanhToan";
             this.btnThanhToan.Size = new System.Drawing.Size(168, 45);
             this.btnThanhToan.TabIndex = 137;
@@ -137,7 +137,7 @@
             this.btnLamMoi.FillColor = System.Drawing.Color.Orange;
             this.btnLamMoi.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLamMoi.ForeColor = System.Drawing.Color.White;
-            this.btnLamMoi.Location = new System.Drawing.Point(1103, 234);
+            this.btnLamMoi.Location = new System.Drawing.Point(1124, 221);
             this.btnLamMoi.Name = "btnLamMoi";
             this.btnLamMoi.Size = new System.Drawing.Size(168, 45);
             this.btnLamMoi.TabIndex = 136;
@@ -147,9 +147,9 @@
             // 
             this.cbxNhanVien.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxNhanVien.FormattingEnabled = true;
-            this.cbxNhanVien.Location = new System.Drawing.Point(553, 117);
+            this.cbxNhanVien.Location = new System.Drawing.Point(573, 115);
             this.cbxNhanVien.Name = "cbxNhanVien";
-            this.cbxNhanVien.Size = new System.Drawing.Size(235, 31);
+            this.cbxNhanVien.Size = new System.Drawing.Size(250, 31);
             this.cbxNhanVien.TabIndex = 135;
             // 
             // lb_nv
@@ -178,9 +178,9 @@
             this.dateKT.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateKT.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateKT.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.dateKT.Location = new System.Drawing.Point(553, 225);
+            this.dateKT.Location = new System.Drawing.Point(573, 223);
             this.dateKT.Name = "dateKT";
-            this.dateKT.Size = new System.Drawing.Size(235, 30);
+            this.dateKT.Size = new System.Drawing.Size(250, 30);
             this.dateKT.TabIndex = 132;
             this.dateKT.Value = new System.DateTime(2024, 11, 18, 21, 30, 11, 0);
             // 
@@ -191,7 +191,7 @@
             this.btnLuu.FillColor = System.Drawing.Color.Orange;
             this.btnLuu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuu.ForeColor = System.Drawing.Color.White;
-            this.btnLuu.Location = new System.Drawing.Point(1104, 120);
+            this.btnLuu.Location = new System.Drawing.Point(1125, 102);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(168, 45);
             this.btnLuu.TabIndex = 131;
@@ -212,9 +212,9 @@
             this.dateBD.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateBD.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateBD.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.dateBD.Location = new System.Drawing.Point(553, 166);
+            this.dateBD.Location = new System.Drawing.Point(573, 164);
             this.dateBD.Name = "dateBD";
-            this.dateBD.Size = new System.Drawing.Size(235, 30);
+            this.dateBD.Size = new System.Drawing.Size(250, 30);
             this.dateBD.TabIndex = 129;
             this.dateBD.Value = new System.DateTime(2024, 11, 18, 21, 30, 11, 0);
             // 
@@ -299,9 +299,9 @@
             // 
             this.cbxTenKH.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxTenKH.FormattingEnabled = true;
-            this.cbxTenKH.Location = new System.Drawing.Point(553, 62);
+            this.cbxTenKH.Location = new System.Drawing.Point(573, 60);
             this.cbxTenKH.Name = "cbxTenKH";
-            this.cbxTenKH.Size = new System.Drawing.Size(235, 31);
+            this.cbxTenKH.Size = new System.Drawing.Size(250, 31);
             this.cbxTenKH.TabIndex = 119;
             // 
             // lb_tenkh
@@ -322,7 +322,7 @@
             this.btnDatLich.FillColor = System.Drawing.Color.Orange;
             this.btnDatLich.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDatLich.ForeColor = System.Drawing.Color.White;
-            this.btnDatLich.Location = new System.Drawing.Point(1104, 61);
+            this.btnDatLich.Location = new System.Drawing.Point(1125, 47);
             this.btnDatLich.Name = "btnDatLich";
             this.btnDatLich.Size = new System.Drawing.Size(168, 45);
             this.btnDatLich.TabIndex = 117;
@@ -370,7 +370,7 @@
             this.bangDatLich.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.bangDatLich.RowHeadersWidth = 51;
             this.bangDatLich.RowTemplate.Height = 24;
-            this.bangDatLich.Size = new System.Drawing.Size(1280, 266);
+            this.bangDatLich.Size = new System.Drawing.Size(1291, 266);
             this.bangDatLich.TabIndex = 116;
             // 
             // MALT
@@ -431,12 +431,12 @@
             this.THOIGIANKT.MinimumWidth = 6;
             this.THOIGIANKT.Name = "THOIGIANKT";
             // 
-            // formDonHang
+            // frmDonHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Cornsilk;
-            this.ClientSize = new System.Drawing.Size(1286, 566);
+            this.ClientSize = new System.Drawing.Size(1304, 576);
             this.Controls.Add(this.txtMaNV);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.lb_layma);
@@ -464,7 +464,7 @@
             this.Controls.Add(this.btnDatLich);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.bangDatLich);
-            this.Name = "formDonHang";
+            this.Name = "frmDonHang";
             this.Text = "formDonHang";
             ((System.ComponentModel.ISupportInitialize)(this.bangDatLich)).EndInit();
             this.ResumeLayout(false);

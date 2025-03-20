@@ -12,9 +12,11 @@ namespace PMQuanLyBanHang_thuoctrusau_
 {
     public partial class frmTaiKhoan : Form
     {
-        public frmTaiKhoan()
+        private string manv_;
+        public frmTaiKhoan(string maNV)
         {
             InitializeComponent();
+            manv_ = maNV;
         }
     }
 }

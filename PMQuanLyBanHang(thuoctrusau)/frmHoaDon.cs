@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PMQuanLyBanHang_thuoctrusau_
 {
-    public partial class formDonHang : Form
+    public partial class frmHoaDon : Form
     {
-        public formDonHang()
+        public frmHoaDon()
         {
             InitializeComponent();
         }

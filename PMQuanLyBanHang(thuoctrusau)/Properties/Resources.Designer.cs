@@ -63,79 +63,9 @@ namespace PMQuanLyBanHang_thuoctrusau_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap thuoc_bao_ve_thuc_vat {
+        internal static System.Drawing.Bitmap thuoc_bao_ve_thuc_vat10 {
             get {
-                object obj = ResourceManager.GetObject("thuoc-bao-ve-thuc-vat", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap thuoc_bao_ve_thuc_vat1 {
-            get {
-                object obj = ResourceManager.GetObject("thuoc-bao-ve-thuc-vat1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap thuoc_bao_ve_thuc_vat2 {
-            get {
-                object obj = ResourceManager.GetObject("thuoc-bao-ve-thuc-vat2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap thuoc_bao_ve_thuc_vat3 {
-            get {
-                object obj = ResourceManager.GetObject("thuoc-bao-ve-thuc-vat3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap thuoc_bao_ve_thuc_vat4 {
-            get {
-                object obj = ResourceManager.GetObject("thuoc-bao-ve-thuc-vat4", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap thuoc_bao_ve_thuc_vat5 {
-            get {
-                object obj = ResourceManager.GetObject("thuoc-bao-ve-thuc-vat5", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap thuoc_bao_ve_thuc_vat6 {
-            get {
-                object obj = ResourceManager.GetObject("thuoc-bao-ve-thuc-vat6", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap thuoc_bao_ve_thuc_vat7 {
-            get {
-                object obj = ResourceManager.GetObject("thuoc-bao-ve-thuc-vat7", resourceCulture);
+                object obj = ResourceManager.GetObject("thuoc-bao-ve-thuc-vat10", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -44,6 +44,14 @@
             this.btnXoa = new Guna.UI2.WinForms.Guna2Button();
             this.btnLammoi = new Guna.UI2.WinForms.Guna2Button();
             this.bangNV = new System.Windows.Forms.DataGridView();
+            this.MANV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HOTEN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NBDHD = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LUONG = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GIOITINH = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NKTHD = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TRANGTHAI = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -57,14 +65,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.dateNgaysinh = new System.Windows.Forms.DateTimePicker();
-            this.MANV = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HOTEN = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NBDHD = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.LUONG = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GIOITINH = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NKTHD = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TRANGTHAI = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.bangNV)).BeginInit();
             this.SuspendLayout();
             // 
@@ -223,6 +223,74 @@
             this.bangNV.Size = new System.Drawing.Size(1044, 274);
             this.bangNV.TabIndex = 27;
             // 
+            // MANV
+            // 
+            this.MANV.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.MANV.DataPropertyName = "MANV";
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Red;
+            this.MANV.DefaultCellStyle = dataGridViewCellStyle1;
+            this.MANV.HeaderText = "Mã Nhân Viên";
+            this.MANV.MinimumWidth = 6;
+            this.MANV.Name = "MANV";
+            // 
+            // HOTEN
+            // 
+            this.HOTEN.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.HOTEN.DataPropertyName = "HOTEN";
+            this.HOTEN.HeaderText = "Tên Nhân Viên";
+            this.HOTEN.MinimumWidth = 6;
+            this.HOTEN.Name = "HOTEN";
+            // 
+            // NBDHD
+            // 
+            this.NBDHD.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.NBDHD.DataPropertyName = "NBDHD";
+            this.NBDHD.HeaderText = "Chức vụ";
+            this.NBDHD.MinimumWidth = 6;
+            this.NBDHD.Name = "NBDHD";
+            // 
+            // SDT
+            // 
+            this.SDT.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.SDT.DataPropertyName = "SDT";
+            this.SDT.HeaderText = "Số Điện Thoại";
+            this.SDT.MinimumWidth = 6;
+            this.SDT.Name = "SDT";
+            // 
+            // LUONG
+            // 
+            this.LUONG.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.LUONG.DataPropertyName = "LUONG";
+            this.LUONG.HeaderText = "Ngày sinh";
+            this.LUONG.MinimumWidth = 6;
+            this.LUONG.Name = "LUONG";
+            // 
+            // GIOITINH
+            // 
+            this.GIOITINH.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.GIOITINH.DataPropertyName = "GIOITINH";
+            this.GIOITINH.HeaderText = "Giới Tính";
+            this.GIOITINH.MinimumWidth = 6;
+            this.GIOITINH.Name = "GIOITINH";
+            // 
+            // NKTHD
+            // 
+            this.NKTHD.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.NKTHD.DataPropertyName = "NKTHD";
+            this.NKTHD.HeaderText = "Địa chi";
+            this.NKTHD.MinimumWidth = 6;
+            this.NKTHD.Name = "NKTHD";
+            // 
+            // TRANGTHAI
+            // 
+            this.TRANGTHAI.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.TRANGTHAI.DataPropertyName = "TRANGTHAI";
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Blue;
+            this.TRANGTHAI.DefaultCellStyle = dataGridViewCellStyle2;
+            this.TRANGTHAI.HeaderText = "Ngày vào làm";
+            this.TRANGTHAI.MinimumWidth = 6;
+            this.TRANGTHAI.Name = "TRANGTHAI";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -257,7 +325,7 @@
             // 
             this.dateVL.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateVL.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateVL.Location = new System.Drawing.Point(948, 97);
+            this.dateVL.Location = new System.Drawing.Point(985, 97);
             this.dateVL.Name = "dateVL";
             this.dateVL.Size = new System.Drawing.Size(218, 30);
             this.dateVL.TabIndex = 61;
@@ -347,79 +415,11 @@
             // 
             this.dateNgaysinh.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateNgaysinh.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateNgaysinh.Location = new System.Drawing.Point(948, 56);
+            this.dateNgaysinh.Location = new System.Drawing.Point(985, 56);
             this.dateNgaysinh.Name = "dateNgaysinh";
             this.dateNgaysinh.Size = new System.Drawing.Size(218, 30);
             this.dateNgaysinh.TabIndex = 61;
             this.dateNgaysinh.Value = new System.DateTime(2024, 11, 18, 0, 0, 0, 0);
-            // 
-            // MANV
-            // 
-            this.MANV.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.MANV.DataPropertyName = "MANV";
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Red;
-            this.MANV.DefaultCellStyle = dataGridViewCellStyle1;
-            this.MANV.HeaderText = "Mã Nhân Viên";
-            this.MANV.MinimumWidth = 6;
-            this.MANV.Name = "MANV";
-            // 
-            // HOTEN
-            // 
-            this.HOTEN.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.HOTEN.DataPropertyName = "HOTEN";
-            this.HOTEN.HeaderText = "Tên Nhân Viên";
-            this.HOTEN.MinimumWidth = 6;
-            this.HOTEN.Name = "HOTEN";
-            // 
-            // NBDHD
-            // 
-            this.NBDHD.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.NBDHD.DataPropertyName = "NBDHD";
-            this.NBDHD.HeaderText = "Chức vụ";
-            this.NBDHD.MinimumWidth = 6;
-            this.NBDHD.Name = "NBDHD";
-            // 
-            // SDT
-            // 
-            this.SDT.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.SDT.DataPropertyName = "SDT";
-            this.SDT.HeaderText = "Số Điện Thoại";
-            this.SDT.MinimumWidth = 6;
-            this.SDT.Name = "SDT";
-            // 
-            // LUONG
-            // 
-            this.LUONG.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.LUONG.DataPropertyName = "LUONG";
-            this.LUONG.HeaderText = "Ngày sinh";
-            this.LUONG.MinimumWidth = 6;
-            this.LUONG.Name = "LUONG";
-            // 
-            // GIOITINH
-            // 
-            this.GIOITINH.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.GIOITINH.DataPropertyName = "GIOITINH";
-            this.GIOITINH.HeaderText = "Giới Tính";
-            this.GIOITINH.MinimumWidth = 6;
-            this.GIOITINH.Name = "GIOITINH";
-            // 
-            // NKTHD
-            // 
-            this.NKTHD.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.NKTHD.DataPropertyName = "NKTHD";
-            this.NKTHD.HeaderText = "Địa chi";
-            this.NKTHD.MinimumWidth = 6;
-            this.NKTHD.Name = "NKTHD";
-            // 
-            // TRANGTHAI
-            // 
-            this.TRANGTHAI.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.TRANGTHAI.DataPropertyName = "TRANGTHAI";
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Blue;
-            this.TRANGTHAI.DefaultCellStyle = dataGridViewCellStyle2;
-            this.TRANGTHAI.HeaderText = "Ngày vào làm";
-            this.TRANGTHAI.MinimumWidth = 6;
-            this.TRANGTHAI.Name = "TRANGTHAI";
             // 
             // frmNhanVien
             // 
